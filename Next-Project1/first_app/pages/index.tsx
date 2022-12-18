@@ -14,7 +14,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home( {allPostsData}:{id:string,title:string,date:string}[] ) {
+export default function Home( {allPostsData}:any ) {
   //console.log('Inside Home');
   //console.log((allPostsData))
   return (
